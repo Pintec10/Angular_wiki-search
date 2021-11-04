@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bulma/css/bulma.css';
+
+/* Needs to be put in this global file, because this class is not present in any HTML template.
+It is present in the HTML code from the response retrieved by the wikipedia API. */
+.searchmatch {
+    font-weight: bold;
+}
